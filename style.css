@@ -1,5 +1,5 @@
 body{
-    margin: auto;
+    margin: 0;
     padding: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
     font-size:medium;
@@ -7,14 +7,37 @@ body{
     background-color: black;
 }
 
-button{
-    padding: 5px;
-    width: 100px;
-    border: 2px solid whitesmoke;
-    border-radius: 5px;
+button {
+  padding: 5px;
+  width: 100px;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+}
+div{
+  margin: 5px;
 }
 
+#middiv{
+  border-bottom: 1px solid #fff;
+  width: fit-content;
+  padding-right: 1.4rem;
+}
+
+#btn{
+  display: inline-flex;
+  gap: 5px;
+}
 button:active {
-    box-shadow: 0px 0px 6px red;
-  }
+  box-shadow: 0px 0px 6px red;
+}
+button:hover {
+  cursor: pointer;
+}
+
+#clear{
+  display: none;
+  background-color: black;
+  color:white;
+  border: 1px solid white;
+}
 
